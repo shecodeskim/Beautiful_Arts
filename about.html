@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beau-Arts</title>
+    <link rel="stylesheet" href="assets/style/css/main.min.css">
+    <link rel="shortcut icon" href="assets/svg/logo.svg" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            background-image: url("assets/images/museum_art11.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .section-title {
+            font-weight: 700;
+            color: #1a1a1a;
+            text-align: center;
+        }
+
+        .vision-box {
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            text-align: center;
+            background: #D8BD8A;
+            color: #150404;
+            padding: 15px;
+            margin-top: 40px;
+        }
+
+        /* 🟢 Team Section Styling */
+        .team-member img {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #0d6efd;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .team-member img:hover {
+            transform: scale(1.08);
+            box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+        }
+
+        .team-member {
+            margin-bottom: 40px;
+        }
+
+        .team-member h5 {
+            margin-top: 10px;
+            font-weight: 500;
+        }
+
+        .team-member p {
+            font-size: 1.00rem;
+        }
+
+        .hero-section h1, .hero-section p {
+            color: white;
+        }
+    </style>
+</head>
+<body class="min-vh-100">
+     <!--  navigation bar -->
+    <nav class="navbar navbar-expand-lg bg-primary position-relative z-3">
+        <div class="container py-4">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/svg/logo.svg" alt="logo" class="img-fluid me-4" width="40">
+            </a>
+            <button class="navbar-toggler bg-warning rounded-5 border-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="about.html">About</a>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            More
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="gallery.html">Gallery</a></li>
+                            <li><a class="dropdown-item" href="index.html">Home</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--  Hero Section -->
+    <section class="hero-section">
+        <div class="position-absolute top-0 start-0 w-100 vh-100 bg-primary opacity-50 z-1"></div>
+        <div class="position-relative py-5 z-3">
+            <div class="container p-5">
+                <h1>About Beau-Arts Gallery</h1>
+                <p>Where timeless creativity meets modern imagination — a home for artists, dreamers, and storytellers through art.</p>
+            </div>
+        </div>
+    </section>
+
+    <!--  About Description -->
+    <div class="container my-5">
+        <h2 class="section-title">Our Story</h2>
+        <div class="vision-box">
+            <p>
+                Founded in 2015, <strong>Beau-Arts</strong> began as a small creative space for young artists to exhibit their work. 
+                Over the years, it has blossomed into a cultural hub celebrating artistic diversity — showcasing contemporary and classical art, photography, sculpture, and digital creativity.
+            </p>
+            <p>
+                At Beau-Arts, we believe art has the power to inspire, heal, and unite. Every piece tells a story, every color sparks emotion, 
+                and every visitor becomes part of that narrative.
+            </p>
+        </div>
+    </div>
+
+    <!--  Vision & Ethos -->
+    <div class="container">
+        <h2 class="section-title">Our Vision & Ethos</h2>
+        <div class="vision-box text-center">
+            <h4 class="fw-bold text-primary">Vision</h4>
+            <p>To become the most inspiring art sanctuary in Africa — nurturing creativity, innovation, and cultural expression.</p>
+
+            <h4 class="fw-bold text-primary mt-4">Ethos</h4>
+            <p>We stand for inclusivity, authenticity, and creative freedom. Our mission is to empower both established and emerging artists by offering a platform that honors their voices and visions.</p>
+        </div>
+    </div>
+
+    <!--  Founders & Contributors -->
+    <div class="container my-5">
+        <h2 class="section-title">Meet the Team</h2>
+        <div class="row mt-4 text-center justify-content-center">
+            <div class="col-md-4 team-member">
+                <img src="assets/images/amara.jpeg" alt="Founder 1">
+                <h5 class="fw-bold mt-2">Amara Njeri</h5>
+                <p class="fw-bold mt-2">Founder & Creative Director</p>
+                <p class="fw-bold mt-2">Amara’s vision for Beau-Arts is to create a global bridge between African art and the world’s creative communities.</p>
+            </div>
+            <div class="col-md-4 team-member">
+                <img src="assets/images/liam.jpeg" alt="Founder 2">
+                <h5 class="fw-bold mt-2">Liam Huan</h5>
+                <p class="fw-bold mt-2">Co-Founder & Curator</p>
+                <p class="fw-bold mt-2">Liam curates exhibitions with a deep focus on cultural storytelling and the preservation of African heritage through modern lenses.</p>
+            </div>
+            <div class="col-md-4 team-member">
+                <img src="assets/images/zuri.jpeg" alt="Contributor 1">
+                <h5 class="fw-bold mt-2">Zuri Brown</h5>
+                <p class="fw-bold mt-2">Contributor & Art Historian</p>
+                <p class="fw-bold mt-2">Zuri brings historical context and artistic research that enriches our exhibitions with depth and meaning.</p>
+            </div>
+        </div>
+    </div>
+
+    <!--  Footer -->
+    <footer>
+        <p>&copy; 2025 Beau-Arts Gallery | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
